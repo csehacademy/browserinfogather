@@ -1,1 +1,1 @@
-# browserinfogather
+# Browser Info Gather
