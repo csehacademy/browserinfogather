@@ -63,7 +63,7 @@ while True:
         print(colored("[+]Done","green"))
         sys.exit(0)
     else:
-        with open(outputpath, 'a+', encoding='utf8', errors='ignore') as f:
+        with codecs.open(outputpath, 'a+', encoding='utf8', errors='ignore') as f:
             f.write(data.decode().replace("EOFD",""))
        
     
