@@ -64,6 +64,6 @@ while True:
         sys.exit(0)
     else:
         with codecs.open(outputpath, 'a+', encoding='utf8', errors='ignore') as f:
-            f.write(data.decode().replace("EOFD",""))
+            f.write(data.decode('utf-8', errors='ignore').replace("EOFD",""))
        
     
