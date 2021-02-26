@@ -1,3 +1,4 @@
-termcolor~=1.1.0
-requests~=2.24.0
-crypto~=1.4.1
+termcolor
+pypiwin32
+pycryptodome
+
